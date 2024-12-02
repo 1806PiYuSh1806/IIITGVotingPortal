@@ -1,0 +1,107 @@
+.sin-voting-portal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #c9c8ee, #3a3a71);
+  color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.sin-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d1d1d;
+  width: 80%;
+  padding: 2rem;
+  color: #ffffff;
+  border-radius: 0px 0px 20px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.sin-form-card {
+  background: linear-gradient(to bottom, #e0e0ff, #b0b0ff);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 30%;
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.sin-form-card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.2rem;
+  color: #1c1d23;
+}
+
+.sin-form-card p {
+  margin-bottom: 1rem;
+  color: #1c1d23;
+}
+
+.sin-form-card input {
+  display: block;
+  width: 93%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #1c1d23;
+  color: white;
+}
+
+.sin-form-card input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+.sin-form-card button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: #1c1d23;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 50%;
+}
+
+.sin-form-card button:hover {
+  color: #1c1d23;
+  box-shadow: 0 0 30px white, 0 0 30px white;
+  transition: 0.3s ease-in-out;
+}
+
+.sin-text-card {
+  text-align: center;
+  width: 30%;
+}
+
+.sin-text-card h1 {
+  font-size: 5rem;
+  color: #c0c0ff;
+  line-height: 8rem;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  letter-spacing: 1rem;
+}
+
+.sin-image-card {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sin-image-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}

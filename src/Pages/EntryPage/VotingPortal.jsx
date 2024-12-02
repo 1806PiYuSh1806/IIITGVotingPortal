@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./VotingPortal.css";
 import Navbar from "../../components/Navbar/Navbar";
 
 const VotingPortal = () => {
   return (
-    <div className="voting-portal">
+    <div className="sp-voting-portal">
       <Navbar />
-      <div className="voting-container">
-        <div className="voting-aside1">
+      <div className="sp-voting-container">
+        <div className="sp-voting-aside1">
           <img src="/assets/Group.svg" alt="" />
         </div>
-        <div className="voting-content">
+        <div className="sp-voting-content">
           <blockquote>
             "Student elections are the foundation of campus democracy,
             empowering young individuals to voice their opinions and shape their
@@ -18,9 +19,11 @@ const VotingPortal = () => {
             responsibility, and civic engagement."
           </blockquote>
           <p>— Nelson Mandela</p>
-          <button className="join-now">Join Now</button>
+          <button href="/signin" className="sp-join-now">
+            <Link to="/signin" className="sp-link">Join Now</Link>
+          </button>
         </div>
-        <div className="voting-aside">
+        <div className="sp-voting-aside">
           <img src="/assets/Group.svg" alt="" />
         </div>
       </div>

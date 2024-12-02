@@ -3,14 +3,14 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">VOTING PORTAL</div>
-      <div className="navbar-links">
+    <nav className="nav-bar">
+      <div className="nav-logo">VOTING PORTAL</div>
+      <div className="nav-links">
         <a href="#features">FEATURES</a>
         <a href="#how-it-works">HOW IT WORKS?</a>
         <a href="#about-us">ABOUT US?</a>
       </div>
-      <button className="navbar-login">Login</button>
+      <button className="nav-login">Login</button>
     </nav>
   );
 };
