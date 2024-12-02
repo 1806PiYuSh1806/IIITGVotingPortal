@@ -1,0 +1,67 @@
+.voting-portal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #c9c8ee, #3a3a71);
+  color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Inter", sans-serif; /* Apply Inter font */
+}
+
+.voting-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: #1c1d23;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 20px 20px;
+  padding: 2rem;
+  height: 70%;
+  width: 80%;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.voting-content {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  text-align: center; /* Center text content */
+  gap: 1rem; /* Add spacing between elements */
+}
+
+.voting-content blockquote {
+  font-size: 1.25rem; /* Decrease size */
+  line-height: 1.75rem;
+  margin-bottom: 0; /* Remove default margin */
+}
+
+.voting-content p {
+  font-size: 0.875rem; /* Decrease size */
+  margin: 0; /* Remove default margin */
+  color: #a5b4fc;
+}
+
+.join-now {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.875rem; /* Decrease size */
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.join-now:hover {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+.voting-aside1 img{
+    transform: rotate(180deg);
+}

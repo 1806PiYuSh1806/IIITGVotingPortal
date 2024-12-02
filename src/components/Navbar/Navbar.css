@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-radius: 20px 20px 0 0;
+  width: 80%;
+  font-family: "Inter", sans-serif; /* Apply Inter font */
+}
+
+.navbar-logo {
+  font-size: 1.25rem; /* Smaller size */
+  font-weight: 600;
+}
+
+.navbar-links a {
+  margin: 0 0.75rem; /* Adjust spacing */
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.875rem; /* Decrease size */
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar-login {
+  background-color: #a5b4fc;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem; /* Decrease size */
+  color: #1a1a1a;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-login:hover {
+  background-color: #8491f5;
+}
