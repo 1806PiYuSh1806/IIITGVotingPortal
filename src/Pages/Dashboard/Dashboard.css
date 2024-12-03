@@ -10,7 +10,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.dashboard-container {
+.db-dashboard-container {
   display: flex;
   justify-content: space-between; /* Ensures space between content and image */
   align-items: center;
@@ -23,12 +23,12 @@
   font-family: "Inter", sans-serif;
 }
 
-.dashboard-title {
+.db-dashboard-title {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
-.election-card {
+.db-election-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,7 @@
   color: #e0e0e0;
 }
 
-.card-content {
+.db-card-content {
   flex: 0.5; /* Adjust width to half the container */
   background: linear-gradient(145deg, #ffffff, #a5a9f3);
   color: #1c1d23; /* Black text for contrast */
@@ -52,13 +52,13 @@
   justify-content: space-between; /* Push content to top and bottom */
 }
 
-.card-content h2 {
+.db-card-content h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   font-weight: 900;
 }
 
-.card-content p {
+.db-card-content p {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
@@ -66,7 +66,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.cta-button {
+.db-cta-button {
   align-self: flex-end; /* Align the button to the right */
   background-color: white;
   color: #1c1d23;
@@ -82,26 +82,26 @@
   align-items: center; /* Vertically center content */
 }
 
-.cta-button span {
+.db-cta-button span {
   font-size: 1.8rem; /* Increase size for visibility */
   font-weight: 900; /* Make arrow bolder */
   margin-left: 0rem; /* Add spacing between text and arrow */
   line-height: 0.8; /* Fix line height to avoid misalignment */
 }
 
-.card-image {
+.db-card-image {
   flex: 0.4;
   display: flex;
   justify-content: flex-end; /* Align the image to the right border */
 }
 
-.card-image img {
+.db-card-image img {
   max-height: 100%; /* Ensures the image scales properly */
   max-width: 100%; /* Prevents the image from overflowing */
   object-fit: contain; /* Maintains aspect ratio */
 }
 
-.vote-icon {
+.db-vote-icon {
   width: 100px;
   height: 100px;
   color: #7c83f8;
