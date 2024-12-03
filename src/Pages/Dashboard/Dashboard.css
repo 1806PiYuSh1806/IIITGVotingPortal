@@ -1,0 +1,108 @@
+.db-voting-portal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #c9c8ee, #3a3a71);
+  color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-between; /* Ensures space between content and image */
+  align-items: center;
+  background-color: #1d1d1d;
+  height: 60%;
+  width: 80%;
+  padding: 2rem;
+  color: #ffffff;
+  border-radius: 0px 0px 20px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.election-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(145deg, #3a3a5a, #262638);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #e0e0e0;
+}
+
+.card-content {
+  flex: 0.5; /* Adjust width to half the container */
+  background: linear-gradient(145deg, #ffffff, #a5a9f3);
+  color: #1c1d23; /* Black text for contrast */
+  padding: 1.5rem;
+  border-radius: 20px; /* Add some rounded corners */
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  margin-right: 1.5rem; /* Add gap between card and image */
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between; /* Push content to top and bottom */
+}
+
+.card-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.card-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+.cta-button {
+  align-self: flex-end; /* Align the button to the right */
+  background-color: white;
+  color: #1c1d23;
+  padding: 0.5rem 2rem; /* Increase horizontal padding for width */
+  border-radius: 15px;
+  text-align: center; /* Ensure the arrow symbol is centered */
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  display: inline-flex; /* Allows better alignment of the content */
+  justify-content: center; /* Center the arrow inside the button */
+  align-items: center; /* Vertically center content */
+}
+
+.cta-button span {
+  font-size: 1.8rem; /* Increase size for visibility */
+  font-weight: 900; /* Make arrow bolder */
+  margin-left: 0rem; /* Add spacing between text and arrow */
+  line-height: 0.8; /* Fix line height to avoid misalignment */
+}
+
+.card-image {
+  flex: 0.4;
+  display: flex;
+  justify-content: flex-end; /* Align the image to the right border */
+}
+
+.card-image img {
+  max-height: 100%; /* Ensures the image scales properly */
+  max-width: 100%; /* Prevents the image from overflowing */
+  object-fit: contain; /* Maintains aspect ratio */
+}
+
+.vote-icon {
+  width: 100px;
+  height: 100px;
+  color: #7c83f8;
+}

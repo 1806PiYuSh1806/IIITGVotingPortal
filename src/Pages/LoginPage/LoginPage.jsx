@@ -16,7 +16,7 @@ const LoginPage = () => {
           <div className="login-content">
             <h2>Hi, Nice To See You!</h2>
             <p>
-              Don’t have an account yet? <a href="#signup">Sign In</a>
+              Don’t have an account yet? <a href="/signin">Sign In</a>
             </p>
             <div className="login-buttons">
               <button
