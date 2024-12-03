@@ -13,6 +13,7 @@
 .nav-logo {
   font-size: 1.25rem; /* Smaller size */
   font-weight: 600;
+  letter-spacing: 0.3rem;
 }
 
 .nav-links a {
