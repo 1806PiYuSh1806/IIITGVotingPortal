@@ -1,4 +1,4 @@
-.election-info-page {
+.sgce-election-info-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,10 +10,10 @@
   font-family: "Inter", sans-serif;
 }
 
-.sgc-container {
+.sgce-container {
   display: flex;
-  justify-content: space-between; /* Ensure space distribution */
-  align-items: center; /* Align items at the top */
+  justify-content: space-between;
+  align-items: center;
   background-color: #1d1d1d;
   height: 60%;
   width: 80%;
@@ -21,24 +21,24 @@
   color: #ffffff;
   border-radius: 0px 0px 20px 20px;
   font-family: "Inter", sans-serif;
-  overflow: hidden; /* Prevent content from spilling */
+  overflow: hidden;
   gap: 2rem;
 }
 
-.election-sidebar {
-  flex: 0.3;
+.sgce-sidebar {
+  flex: 0.25;
   background: linear-gradient(135deg, #e0e7ff, #a1b2d8);
   padding: 1.5rem;
   border-radius: 20px;
   box-shadow: 0 0 20px white, 0 0 20px white;
 }
 
-.election-sidebar ul {
+.sgce-sidebar ul {
   list-style: none;
   padding: 0;
 }
 
-.election-sidebar li {
+.sgce-sidebar li {
   font-family: "Inter", sans-serif;
   padding: 0.8rem;
   font-size: 1.2rem;
@@ -51,7 +51,7 @@
   transition: all 0.3s ease;
 }
 
-.election-sidebar .active {
+.sgce-sidebar li.sgce-active {
   background: linear-gradient(135deg, #ffffff, #c9c8ee);
   color: #1d1d1d;
   font-weight: bold;

@@ -28,38 +28,38 @@ const SGCElections = () => {
   };
 
   return (
-    <div className="election-info-page">
+    <div className="sgce-election-info-page">
       <Navbar />
-      <div className="sgc-container">
+      <div className="sgce-container">
         {/* Sidebar */}
-        <div className="election-sidebar">
+        <div className="sgce-sidebar">
           <ul>
             <li
-              className={activeTab === "Election Info & SGC Roles" ? "active" : ""}
+              className={activeTab === "Election Info & SGC Roles" ? "sgce-active" : ""}
               onClick={() => setActiveTab("Election Info & SGC Roles")}
             >
               Election Info & SGC Roles
             </li>
             <li
-              className={activeTab === "Nomination Submission" ? "active" : ""}
+              className={activeTab === "Nomination Submission" ? "sgce-active" : ""}
               onClick={() => setActiveTab("Nomination Submission")}
             >
               Nomination Submission
             </li>
             <li
-              className={activeTab === "Candidate List" ? "active" : ""}
+              className={activeTab === "Candidate List" ? "sgce-active" : ""}
               onClick={() => setActiveTab("Candidate List")}
             >
               Candidate List
             </li>
             <li
-              className={activeTab === "Voting Instructions" ? "active" : ""}
+              className={activeTab === "Voting Instructions" ? "sgce-active" : ""}
               onClick={() => setActiveTab("Voting Instructions")}
             >
               Voting Instructions
             </li>
             <li
-              className={activeTab === "Select Your Candidate" ? "active" : ""}
+              className={activeTab === "Select Your Candidate" ? "sgce-active" : ""}
               onClick={() => setActiveTab("Select Your Candidate")}
             >
               Select Your Candidate

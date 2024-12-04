@@ -16,7 +16,7 @@ const SignIn = () => {
             <input type="text" placeholder="Name" required />
             <input type="email" placeholder="Email" required />
             <input type="text" placeholder="Roll Number" required />
-            <input type="text" placeholder="Enrolled Course" required />
+            <input type="text" placeholder="Branch" required />
             <input type="password" placeholder="Password" required />
             <input type="password" placeholder="Confirm Password" required />
             <button type="submit">Sign In</button>

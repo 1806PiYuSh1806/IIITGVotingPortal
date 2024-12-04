@@ -1,9 +1,9 @@
 import React from "react";
-import "./ElectionInfoAndSGCRoles.css"; // Create a separate CSS file for this component
+import "./ElectionInfoAndSGCRoles.css";
 
 const ElectionInfoAndSGCRoles = () => {
   return (
-    <div className="election-content">
+    <div className="EISR-election-content">
       <h2>About Student Gymkhana Council Election 2025</h2>
       <p>
         Welcome to the Seventh Students' Gymkhana Council (SGC) Elections at
@@ -38,7 +38,7 @@ const ElectionInfoAndSGCRoles = () => {
       </p>
 
       <h3>Timeline</h3>
-      <ol className="timeline">
+      <ol className="EISR-timeline">
         <li>
           Last Date of filling nominations: 2nd April 2024 (till 5:30 pm)
         </li>
@@ -56,10 +56,10 @@ const ElectionInfoAndSGCRoles = () => {
       </ol>
 
       <h3>Roles Of SGC Member</h3>
-      <div className="roles">
-        <button className="role-button">President</button>
-        <button className="role-button">Vice-President</button>
-        <button className="role-button">General Secretaries</button>
+      <div className="EISR-roles">
+        <button className="EISR-role-button">President</button>
+        <button className="EISR-role-button">Vice-President</button>
+        <button className="EISR-role-button">General Secretaries</button>
       </div>
     </div>
   );

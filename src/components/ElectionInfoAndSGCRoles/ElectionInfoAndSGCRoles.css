@@ -1,5 +1,5 @@
-.election-content {
-  flex: 0.7;
+.EISR-election-content {
+  flex: 0.75;
   background: linear-gradient(to bottom, #ffffff, #a5a9f3);
   box-shadow: 0 0 20px white, 0 0 20px white;
   color: #1d1d1d;
@@ -13,39 +13,39 @@
   -ms-overflow-style: none; /* For Internet Explorer */
 }
 
-.election-content h2 {
+.EISR-election-content h2 {
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
-.election-content h3 {
+.EISR-election-content h3 {
   font-size: 1.4rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
-.election-content p {
+.EISR-election-content p {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
 
-.election-content a {
+.EISR-election-content a {
   color: #3a3a71;
   text-decoration: none;
   font-weight: bold;
 }
 
-.election-content a:hover {
+.EISR-election-content a:hover {
   text-decoration: underline;
 }
 
-.election-content::-webkit-scrollbar {
+.EISR-election-content::-webkit-scrollbar {
   display: none;
 }
 
-.timeline {
+.EISR-timeline {
   list-style-type: decimal;
   padding-left: 1.5rem;
   margin-bottom: 1.5rem;
@@ -53,20 +53,20 @@
   line-height: 1.6;
 }
 
-.timeline li {
+.EISR-timeline li {
   margin-bottom: 0.5rem;
   color: #1d1d1d;
   font-weight: 600;
 }
 
-.roles {
+.EISR-roles {
   display: flex;
   gap: 4rem;
   margin-bottom: 2rem;
   justify-content: center;
 }
 
-.role-button {
+.EISR-role-button {
   padding: 0.8rem 1.5rem;
   background-color: #3a3a71;
   color: #ffffff;
@@ -78,7 +78,7 @@
   transition: all 0.3s ease;
 }
 
-.role-button:hover {
+.EISR-role-button:hover {
   background: linear-gradient(135deg, #ffffff, #c9c8ee);
   color: #1d1d1d;
 }
