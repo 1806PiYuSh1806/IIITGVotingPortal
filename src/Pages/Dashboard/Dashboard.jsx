@@ -15,7 +15,7 @@ const Dashboard = () => {
             get all the information you need to cast your vote and make your
             voice heard.
           </p>
-          <a href="/" className="db-cta-button">
+          <a href="/sgcElections" className="db-cta-button">
             <span>&#8594;</span> {/* Arrow symbol */}
           </a>
         </div>

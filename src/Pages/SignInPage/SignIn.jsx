@@ -13,8 +13,8 @@ const SignIn = () => {
             Already have an account? <a href="/login">Log in</a>
           </p>
           <form>
-            <input type="text" placeholder="First Name" required />
-            <input type="text" placeholder="Last Name" required />
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
             <input type="text" placeholder="Roll Number" required />
             <input type="text" placeholder="Enrolled Course" required />
             <input type="password" placeholder="Password" required />

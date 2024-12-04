@@ -7,6 +7,7 @@ import ForgotPassword from "../Pages/ForgotPassword/ForgotPassword";
 import OTPVerification from "../Pages/OTPVerification/OTPVerification";
 import ChangePassword from "../Pages/ChangePassword/ChangePassword";
 import Dashboard from "../Pages/Dashboard/Dashboard";
+import SGCElections from "../Pages/SGCElections/SGCElections";
 
 const Routers = () => {
     return (
@@ -18,6 +19,7 @@ const Routers = () => {
             <Route path="/forgot-password/otp-verification" element={<OTPVerification/>}/>
             <Route path="/forgot-password/password-change" element={<ChangePassword/>}/>
             <Route path="/dashboard" element={<Dashboard/>}/>
+            <Route path="/sgcElections" element={<SGCElections/>}/>
         </Routes>
     )
 }
