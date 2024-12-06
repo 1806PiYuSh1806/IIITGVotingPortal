@@ -1,11 +1,9 @@
 import React from "react";
+import './SelectYourCandidate.css';
 
 const SelectYourCandidate = () => {
   return (
-    <div>
-      <h2>Select Your Candidate</h2>
-      <p>Choose your preferred candidate here.</p>
-    </div>
+    <div className="SC-main-container"></div>
   );
 };
 

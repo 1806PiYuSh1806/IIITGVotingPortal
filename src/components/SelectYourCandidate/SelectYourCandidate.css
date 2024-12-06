@@ -1,0 +1,13 @@
+.SC-main-container {
+  flex: 0.75;
+  background: linear-gradient(to bottom, #ffffff, #a5a9f3);
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  color: #1d1d1d;
+  padding: 2rem;
+  border-radius: 20px;
+  height: 90%;
+  overflow-y: auto;
+  font-family: "Inter", sans-serif;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer */
+}

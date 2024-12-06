@@ -17,7 +17,7 @@
   background-color: #1d1d1d;
   height: 60%;
   width: 80%;
-  padding: 2rem;
+  padding: 0 0 0 4rem;
   color: #ffffff;
   border-radius: 0px 0px 20px 20px;
   font-family: "Inter", sans-serif;
@@ -96,9 +96,10 @@
 }
 
 .db-card-image img {
-  max-height: 100%; /* Ensures the image scales properly */
-  max-width: 100%; /* Prevents the image from overflowing */
-  object-fit: contain; /* Maintains aspect ratio */
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  width: 80%;
 }
 
 .db-vote-icon {

@@ -38,6 +38,7 @@ const CadidateInfoAndManifesto = () => {
       return;
     }
     alert("Profile and Manifestos submitted successfully!");
+    window.location.href = "/sgcElections";
   };
 
   return (

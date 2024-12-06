@@ -21,7 +21,7 @@ const DeclarationForm = (props) => {
   };
 
   if (nextPage === true) {
-    return <CadidateInfoAndManifesto/>
+    return <CadidateInfoAndManifesto />;
   }
 
   return (
@@ -34,10 +34,10 @@ const DeclarationForm = (props) => {
         IIITG Students’ Gymkhana Council Election 2024. I declare that I have
         not faced any formal disciplinary action for any misconduct in my
         student life so far by any committee of Institute. In the event of
-        winning the election, I shall serve my post and my Institute to the
-        best of my capability. Before or during the filling of nomination if I
-        am found to be guilty of any offence under Institute disciplinary
-        norms, my nomination shall be cancelled.
+        winning the election, I shall serve my post and my Institute to the best
+        of my capability. Before or during the filling of nomination if I am
+        found to be guilty of any offence under Institute disciplinary norms, my
+        nomination shall be cancelled.
         <br />
         If I am elected to any office of SGC and found guilty of any
         disciplinary actions of Institute, I can be removed from my office with
@@ -55,13 +55,15 @@ const DeclarationForm = (props) => {
           I agree and confirm
         </label>
       </div>
-      <button
-        className="df-submit-button"
-        onClick={handleSubmit}
-        disabled={!isChecked} // Disable button if not checked
-      >
-        Submit Candidacy
-      </button>
+      {isChecked && (
+        <button
+          className="df-submit-button"
+          onClick={handleSubmit}
+          disabled={!isChecked} // Disable button if not checked
+        >
+          Submit Candidacy
+        </button>
+      )}
     </div>
   );
 };

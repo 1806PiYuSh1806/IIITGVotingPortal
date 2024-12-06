@@ -1,10 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
+import "./CandidateList.css";
+import NominationForm from "../NominationForm/NominationForm"; // Import the Temp component
 
 const CandidateList = () => {
+  const [selectedPosition, setSelectedPosition] = useState(null); // State to track selected position
+
+  const positions = [
+    "President",
+    "Vice - President",
+    "General Secretary Technical Board",
+    "General Secretary Cultural Board",
+    "General Secretary Sports Board",
+    "General Secretary Welfare Board",
+  ];
+
+  // Handle button click
+  const handlePositionClick = (position) => {
+    setSelectedPosition(position);
+  };
+
+  // If a position is selected, render the Temp component
+  if (selectedPosition) {
+    return <NominationForm post={selectedPosition} />;
+  }
+
+  // Render the nomination buttons
   return (
-    <div>
-      <h2>Candidate List</h2>
-      <p>View the list of candidates here.</p>
+    <div className="ns-nomination-submission-container">
+      <h2 className="ns-nomination-title">List of Candidates by Position</h2>
+      <div className="ns-positions-grid">
+        {positions.map((position, index) => (
+          <button
+            key={index}
+            className="ns-position-button"
+            onClick={() => handlePositionClick(position)}
+          >
+            {position}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };
