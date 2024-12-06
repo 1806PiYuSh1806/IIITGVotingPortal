@@ -1,0 +1,96 @@
+.nf-nomination-form {
+  flex: 0.75;
+  background: linear-gradient(to bottom, #ffffff, #a5a9f3);
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  color: #1d1d1d;
+  padding: 2rem;
+  border-radius: 20px;
+  height: 90%;
+  overflow-y: scroll;
+  font-family: "Inter", sans-serif;
+
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer */
+}
+
+.nf-message {
+  color: red;
+  font-size: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.nf-form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.nf-candidate-details p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.nf-candidate-details strong {
+  font-weight: bold;
+}
+
+.nf-submit-button {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #3a3a71;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nf-submit-button:hover {
+  background-color: #5a5a91;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.nf-post-dropdown {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.nf-post-dropdown label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.nf-dropdown {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+  max-width: 300px;
+  background: transparent;
+}
+
+.nf-input {
+  font-size: 1rem;
+  padding: 0.2rem;
+  border: none;
+  background: transparent;
+  color: #1d1d1d;
+  outline: none;
+}
+
+.nf-request-sent {
+  color: green;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  display: inline;
+}

@@ -38,6 +38,16 @@
   padding: 0;
 }
 
+.sgce-sidebar li.sgce-active {
+  background: linear-gradient(135deg, #ffffff, #c9c8ee);
+  color: #1d1d1d;
+  font-weight: bold;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Bottom shadow for the raised effect */
+  transform: translateY(-4px); /* Visually raises the tile */
+  transition: all 0.3s ease; /* Smooth transition effect */
+  border-radius: 10px;
+}
+
 .sgce-sidebar li {
   font-family: "Inter", sans-serif;
   padding: 0.8rem;
@@ -49,10 +59,10 @@
   text-align: center;
   cursor: pointer;
   transition: all 0.3s ease;
+  border-radius: 10px;
 }
 
-.sgce-sidebar li.sgce-active {
-  background: linear-gradient(135deg, #ffffff, #c9c8ee);
-  color: #1d1d1d;
-  font-weight: bold;
+.sgce-sidebar li:hover {
+  background: linear-gradient(135deg, #a1a8f0, #3a3a71);
+  transform: scale(1.05); /* Makes the tab appear interactive on hover */
 }

@@ -1,0 +1,63 @@
+.df-main-container {
+  flex: 0.75;
+  background: linear-gradient(to bottom, #ffffff, #a5a9f3);
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  color: #1d1d1d;
+  padding: 2rem;
+  border-radius: 20px;
+  height: 90%;
+  overflow-y: auto;
+  font-family: "Inter", sans-serif;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer */
+}
+
+.df-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.df-declaration {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.df-checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.df-checkbox {
+  margin-right: 0.5rem;
+  transform: scale(1.2); /* Enlarge checkbox */
+}
+
+.df-checkbox-label {
+  font-size: 1rem;
+}
+
+.df-submit-button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px white, 0 0 20px white;
+}
+
+.df-submit-button:disabled {
+  background-color: white; /* Grey out when disabled */
+  cursor: not-allowed;
+  box-shadow: none;
+}

@@ -1,0 +1,101 @@
+.CIM-main-container {
+  flex: 0.75;
+  background: linear-gradient(to bottom, #ffffff, #a5a9f3);
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  color: #1d1d1d;
+  padding: 2rem;
+  border-radius: 20px;
+  height: 90%;
+  overflow-y: auto;
+  font-family: "Inter", sans-serif;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer */
+}
+
+.CIM-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.CIM-textarea {
+  width: 95%;
+  height: 30%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.CIM-upload-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.CIM-upload-box {
+  flex: 0.48;
+  background: linear-gradient(to bottom, #ffffff, #c9c8ee);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  cursor: pointer;
+}
+
+.CIM-upload-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.CIM-upload-box p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.CIM-optional-text {
+  color: red;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.CIM-hidden-file-input {
+  display: none;
+}
+
+.CIM-uploaded-file {
+  font-size: 0.9rem;
+  color: #3a3a71;
+  font-weight: bold;
+}
+
+.CIM-submit-button {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.CIM-success-message {
+  font-size: 0.9rem;
+  color: green;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.CIM-clear-text {
+  font-size: 0.8rem;
+  color: red;
+  cursor: pointer;
+}
