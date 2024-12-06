@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./CandidateList.css";
-import NominationForm from "../NominationForm/NominationForm"; // Import the Temp component
+import NominationForm from "../NominationForm/NominationForm"; // Import the NominationForm component
 
 const CandidateList = () => {
   const [selectedPosition, setSelectedPosition] = useState(null); // State to track selected position
@@ -19,20 +19,20 @@ const CandidateList = () => {
     setSelectedPosition(position);
   };
 
-  // If a position is selected, render the Temp component
+  // If a position is selected, render the NominationForm component
   if (selectedPosition) {
     return <NominationForm post={selectedPosition} />;
   }
 
   // Render the nomination buttons
   return (
-    <div className="ns-nomination-submission-container">
-      <h2 className="ns-nomination-title">List of Candidates by Position</h2>
-      <div className="ns-positions-grid">
+    <div className="CL-nomination-submission-container">
+      <h2 className="CL-nomination-title">List of Candidates by Position</h2>
+      <div className="CL-positions-grid">
         {positions.map((position, index) => (
           <button
             key={index}
-            className="ns-position-button"
+            className="CL-position-button"
             onClick={() => handlePositionClick(position)}
           >
             {position}

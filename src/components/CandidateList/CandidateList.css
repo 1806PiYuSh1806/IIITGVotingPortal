@@ -1,4 +1,4 @@
-.ns-nomination-submission-container {
+.CL-nomination-submission-container {
   flex: 0.75;
   background: linear-gradient(to bottom, #ffffff, #a5a9f3);
   box-shadow: 0 0 20px white, 0 0 20px white;
@@ -12,14 +12,14 @@
   -ms-overflow-style: none; /* For Internet Explorer */
 }
 
-.ns-nomination-title {
+.CL-nomination-title {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 2rem;
   color: #1d1d1d;
 }
 
-.ns-positions-grid {
+.CL-positions-grid {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
@@ -29,7 +29,7 @@
   justify-items: center;
 }
 
-.ns-position-button {
+.CL-position-button {
   width: 90%; /* Fixed width for all buttons */
   background-color: #353673;
   color: white;
@@ -43,12 +43,12 @@
   transition: all 0.3s ease;
 }
 
-.ns-position-button:hover {
+.CL-position-button:hover {
   background: linear-gradient(135deg, #ffffff, #c9c8ee);
   transform: scale(1.05);
   color: #1d1d1d;
 }
 
-.ns-position-button:active {
+.CL-position-button:active {
   transform: scale(0.95);
 }
