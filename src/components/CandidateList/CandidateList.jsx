@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./CandidateList.css";
-import NominationForm from "../NominationForm/NominationForm"; // Import the NominationForm component
+import SelectedCandidateNames from "../SelectedCandidateNames/SelectedCandidateNames";
 
 const CandidateList = () => {
   const [selectedPosition, setSelectedPosition] = useState(null); // State to track selected position
@@ -21,7 +21,7 @@ const CandidateList = () => {
 
   // If a position is selected, render the NominationForm component
   if (selectedPosition) {
-    return <NominationForm post={selectedPosition} />;
+    return <SelectedCandidateNames post={selectedPosition} />;
   }
 
   // Render the nomination buttons

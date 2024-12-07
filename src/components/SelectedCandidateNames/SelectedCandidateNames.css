@@ -1,0 +1,67 @@
+.SCN-main-container {
+  flex: 0.75;
+  background: linear-gradient(to bottom, #ffffff, #a5a9f3);
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  color: #1d1d1d;
+  padding: 2rem;
+  border-radius: 20px;
+  height: 90%;
+  overflow-y: auto;
+  font-family: "Inter", sans-serif;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer */
+}
+
+.SCN-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1d1d1d;
+  margin-bottom: 2rem;
+}
+
+.SCN-card {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.SCN-candidate-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #c9c8ee;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+.SCN-candidate-description {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #e0e0e0;
+}
+
+.SCN-know-more-button {
+  display: block;
+  margin: 0 0 0 auto;
+  background-color: #ffffff;
+  color: #1d1d1d;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 0 20px white, 0 0 20px white;
+  transition: all 0.3s ease;
+}
+
+.SCN-know-more-button:active {
+  transform: scale(0.95);
+}
